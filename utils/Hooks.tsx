@@ -81,7 +81,7 @@ export function useSwipe(onSwipeUp?: Function, onSwipeRight?: Function, onSwipeD
 }
 
 export function useCoflCoins() {
-    const [coflCoins, setCoflCoins] = useState(getCurrentCoflCoins())
+    const [coflCoins, setCoflCoins] = 1000000
 
     useEffect(() => {
         let unsubscribe = subscribeToCoflcoinChange(setCoflCoins)
